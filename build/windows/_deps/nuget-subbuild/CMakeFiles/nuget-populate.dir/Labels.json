@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Group Flutter/map/mapbox_app-main/build/windows/_deps/nuget-subbuild/CMakeFiles/nuget-populate"
+		},
+		{
+			"file" : "D:/Group Flutter/map/mapbox_app-main/build/windows/_deps/nuget-subbuild/CMakeFiles/56d9ddaba347f59251b87b6e0a902f60/nuget-populate.rule"
+		},
+		{
+			"file" : "D:/Group Flutter/map/mapbox_app-main/build/windows/_deps/nuget-subbuild/CMakeFiles/dedc8e0398df3f16fbd9c7ed6024825a/nuget-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Group Flutter/map/mapbox_app-main/build/windows/_deps/nuget-subbuild/CMakeFiles/0dca76ec0be54c1018ed3afd851c3dc2/nuget-populate-build.rule"
+		},
+		{
+			"file" : "D:/Group Flutter/map/mapbox_app-main/build/windows/_deps/nuget-subbuild/CMakeFiles/0dca76ec0be54c1018ed3afd851c3dc2/nuget-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Group Flutter/map/mapbox_app-main/build/windows/_deps/nuget-subbuild/CMakeFiles/0dca76ec0be54c1018ed3afd851c3dc2/nuget-populate-copyfile.rule"
+		},
+		{
+			"file" : "D:/Group Flutter/map/mapbox_app-main/build/windows/_deps/nuget-subbuild/CMakeFiles/0dca76ec0be54c1018ed3afd851c3dc2/nuget-populate-download.rule"
+		},
+		{
+			"file" : "D:/Group Flutter/map/mapbox_app-main/build/windows/_deps/nuget-subbuild/CMakeFiles/0dca76ec0be54c1018ed3afd851c3dc2/nuget-populate-install.rule"
+		},
+		{
+			"file" : "D:/Group Flutter/map/mapbox_app-main/build/windows/_deps/nuget-subbuild/CMakeFiles/0dca76ec0be54c1018ed3afd851c3dc2/nuget-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Group Flutter/map/mapbox_app-main/build/windows/_deps/nuget-subbuild/CMakeFiles/0dca76ec0be54c1018ed3afd851c3dc2/nuget-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Group Flutter/map/mapbox_app-main/build/windows/_deps/nuget-subbuild/CMakeFiles/0dca76ec0be54c1018ed3afd851c3dc2/nuget-populate-test.rule"
+		},
+		{
+			"file" : "D:/Group Flutter/map/mapbox_app-main/build/windows/_deps/nuget-subbuild/CMakeFiles/0dca76ec0be54c1018ed3afd851c3dc2/nuget-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nuget-populate"
+		],
+		"name" : "nuget-populate"
+	}
+}

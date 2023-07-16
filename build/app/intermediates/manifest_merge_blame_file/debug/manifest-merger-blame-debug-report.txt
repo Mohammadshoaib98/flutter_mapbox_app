@@ -1,0 +1,191 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_mapbox_blog"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->D:\Group Flutter\map\mapbox_app-main\android\app\src\main\AndroidManifest.xml:4:5-66
+15-->D:\Group Flutter\map\mapbox_app-main\android\app\src\main\AndroidManifest.xml:4:22-64
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->D:\Group Flutter\map\mapbox_app-main\android\app\src\main\AndroidManifest.xml:5:5-78
+16-->D:\Group Flutter\map\mapbox_app-main\android\app\src\main\AndroidManifest.xml:5:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->D:\Group Flutter\map\mapbox_app-main\android\app\src\main\AndroidManifest.xml:6:5-81
+17-->D:\Group Flutter\map\mapbox_app-main\android\app\src\main\AndroidManifest.xml:6:22-78
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->D:\Group Flutter\map\mapbox_app-main\android\app\src\main\AndroidManifest.xml:7:5-79
+18-->D:\Group Flutter\map\mapbox_app-main\android\app\src\main\AndroidManifest.xml:7:22-76
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->[:geolocator_android] D:\Group Flutter\map\mapbox_app-main\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-77
+19-->[:geolocator_android] D:\Group Flutter\map\mapbox_app-main\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-74
+20
+21    <uses-feature
+21-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\SHOAIB\.gradle\caches\transforms-3\b7683374aa69ff8cf4a3a930bd92ab56\transformed\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:9:5-11:35
+22        android:glEsVersion="0x00020000"
+22-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\SHOAIB\.gradle\caches\transforms-3\b7683374aa69ff8cf4a3a930bd92ab56\transformed\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:10:9-41
+23        android:required="true" />
+23-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\SHOAIB\.gradle\caches\transforms-3\b7683374aa69ff8cf4a3a930bd92ab56\transformed\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:11:9-32
+24    <uses-feature
+24-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\SHOAIB\.gradle\caches\transforms-3\b7683374aa69ff8cf4a3a930bd92ab56\transformed\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:12:5-14:36
+25        android:name="android.hardware.wifi"
+25-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\SHOAIB\.gradle\caches\transforms-3\b7683374aa69ff8cf4a3a930bd92ab56\transformed\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:13:9-45
+26        android:required="false" />
+26-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\SHOAIB\.gradle\caches\transforms-3\b7683374aa69ff8cf4a3a930bd92ab56\transformed\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:14:9-33
+27
+28    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required for CrashReporterJobIntentService on API levels below 25 -->
+28-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\SHOAIB\.gradle\caches\transforms-3\b7683374aa69ff8cf4a3a930bd92ab56\transformed\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:18:5-76
+28-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\SHOAIB\.gradle\caches\transforms-3\b7683374aa69ff8cf4a3a930bd92ab56\transformed\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:18:22-73
+29    <uses-permission android:name="android.permission.WAKE_LOCK" />
+29-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\413d3911f245dd54ea6ce328fac8b7e9\transformed\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:12:5-68
+29-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\413d3911f245dd54ea6ce328fac8b7e9\transformed\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:12:22-65
+30    <uses-permission
+30-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\413d3911f245dd54ea6ce328fac8b7e9\transformed\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:16:5-18:38
+31        android:name="android.permission.GET_TASKS"
+31-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\413d3911f245dd54ea6ce328fac8b7e9\transformed\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:17:9-52
+32        android:maxSdkVersion="20" />
+32-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\413d3911f245dd54ea6ce328fac8b7e9\transformed\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:18:9-35
+33
+34    <permission
+34-->[androidx.core:core:1.9.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+35        android:name="com.example.flutter_mapbox_blog.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+35-->[androidx.core:core:1.9.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+36        android:protectionLevel="signature" />
+36-->[androidx.core:core:1.9.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+37
+38    <uses-permission android:name="com.example.flutter_mapbox_blog.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+38-->[androidx.core:core:1.9.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+38-->[androidx.core:core:1.9.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+39
+40    <application
+41        android:name="android.app.Application"
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.9.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+43        android:debuggable="true"
+44        android:icon="@mipmap/ic_launcher"
+45        android:label="flutter_mapbox_blog" >
+46        <meta-data
+47            android:name="com.mapbox.token"
+48            android:value="sk.eyJ1IjoieWFzZXJnaCIsImEiOiJjbGsya3plM3UwZmhuM2RwMnFxZmd4eGZqIn0.EBTKHycZO6UHPcPbPHZwjg" />
+49
+50        <activity
+51            android:name="com.example.flutter_mapbox_blog.MainActivity"
+52            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+53            android:exported="true"
+54            android:hardwareAccelerated="true"
+55            android:launchMode="singleTop"
+56            android:theme="@style/LaunchTheme"
+57            android:windowSoftInputMode="adjustResize" >
+58
+59            <!--
+60                 Specifies an Android theme to apply to this Activity as soon as
+61                 the Android process has started. This theme is visible to the user
+62                 while the Flutter UI initializes. After that, this theme continues
+63                 to determine the Window background behind the Flutter UI.
+64            -->
+65            <meta-data
+66                android:name="io.flutter.embedding.android.NormalTheme"
+67                android:resource="@style/NormalTheme" />
+68
+69            <intent-filter>
+70                <action android:name="android.intent.action.MAIN" />
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+73            </intent-filter>
+74        </activity>
+75        <!--
+76             Don't delete the meta-data below.
+77             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+78        -->
+79        <meta-data
+80            android:name="flutterEmbedding"
+81            android:value="2" />
+82
+83        <service
+83-->[:geolocator_android] D:\Group Flutter\map\mapbox_app-main\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:56
+84            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+84-->[:geolocator_android] D:\Group Flutter\map\mapbox_app-main\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-77
+85            android:enabled="true"
+85-->[:geolocator_android] D:\Group Flutter\map\mapbox_app-main\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-35
+86            android:exported="false"
+86-->[:geolocator_android] D:\Group Flutter\map\mapbox_app-main\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+87            android:foregroundServiceType="location" />
+87-->[:geolocator_android] D:\Group Flutter\map\mapbox_app-main\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-53
+88
+89        <uses-library
+89-->[androidx.window:window:1.0.0-beta04] C:\Users\SHOAIB\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+90            android:name="androidx.window.extensions"
+90-->[androidx.window:window:1.0.0-beta04] C:\Users\SHOAIB\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+91            android:required="false" />
+91-->[androidx.window:window:1.0.0-beta04] C:\Users\SHOAIB\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+92        <uses-library
+92-->[androidx.window:window:1.0.0-beta04] C:\Users\SHOAIB\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+93            android:name="androidx.window.sidecar"
+93-->[androidx.window:window:1.0.0-beta04] C:\Users\SHOAIB\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+94            android:required="false" /> <!-- Offline download region picker activity -->
+94-->[androidx.window:window:1.0.0-beta04] C:\Users\SHOAIB\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+95        <activity
+95-->[com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\95fb45a54bacffd986c2dd87ad298e99\transformed\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:12:9-14:125
+96            android:name="com.mapbox.mapboxsdk.plugins.offline.ui.OfflineActivity"
+96-->[com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\95fb45a54bacffd986c2dd87ad298e99\transformed\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:13:13-83
+97            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" /> <!-- Offline download service -->
+97-->[com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\95fb45a54bacffd986c2dd87ad298e99\transformed\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:14:13-122
+98        <service
+98-->[com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\95fb45a54bacffd986c2dd87ad298e99\transformed\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:17:9-19:40
+99            android:name="com.mapbox.mapboxsdk.plugins.offline.offline.OfflineDownloadService"
+99-->[com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\95fb45a54bacffd986c2dd87ad298e99\transformed\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:18:13-95
+100            android:exported="false" />
+100-->[com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\95fb45a54bacffd986c2dd87ad298e99\transformed\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:19:13-37
+101
+102        <activity
+102-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\f568b3e0e4b3738147ed358a145ad2d6\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+103-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\f568b3e0e4b3738147ed358a145ad2d6\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+104            android:exported="false"
+104-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\f568b3e0e4b3738147ed358a145ad2d6\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\f568b3e0e4b3738147ed358a145ad2d6\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+106
+107        <meta-data
+107-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\6b0daa5fb4c2eb7e8b55778df9b972f6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+108            android:name="com.google.android.gms.version"
+108-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\6b0daa5fb4c2eb7e8b55778df9b972f6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+109            android:value="@integer/google_play_services_version" />
+109-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\6b0daa5fb4c2eb7e8b55778df9b972f6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+110
+111        <provider
+111-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\413d3911f245dd54ea6ce328fac8b7e9\transformed\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:21:9-25:39
+112            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+112-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\413d3911f245dd54ea6ce328fac8b7e9\transformed\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:22:13-93
+113            android:authorities="com.example.flutter_mapbox_blog.mapboxtelemetryinitprovider"
+113-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\413d3911f245dd54ea6ce328fac8b7e9\transformed\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:23:13-79
+114            android:exported="false"
+114-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\413d3911f245dd54ea6ce328fac8b7e9\transformed\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:24:13-37
+115            android:initOrder="100" />
+115-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\413d3911f245dd54ea6ce328fac8b7e9\transformed\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:25:13-36
+116
+117        <service
+117-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\413d3911f245dd54ea6ce328fac8b7e9\transformed\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:27:9-30:72
+118            android:name="com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService"
+118-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\413d3911f245dd54ea6ce328fac8b7e9\transformed\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:28:13-93
+119            android:exported="false"
+119-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\413d3911f245dd54ea6ce328fac8b7e9\transformed\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:29:13-37
+120            android:permission="android.permission.BIND_JOB_SERVICE" />
+120-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\413d3911f245dd54ea6ce328fac8b7e9\transformed\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:30:13-69
+121        <service
+121-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\413d3911f245dd54ea6ce328fac8b7e9\transformed\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:31:9-33:40
+122            android:name="com.mapbox.android.telemetry.MapboxTelemetryService"
+122-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\413d3911f245dd54ea6ce328fac8b7e9\transformed\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:32:13-79
+123            android:exported="false" />
+123-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\SHOAIB\.gradle\caches\transforms-3\413d3911f245dd54ea6ce328fac8b7e9\transformed\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:33:13-37
+124    </application>
+125
+126</manifest>

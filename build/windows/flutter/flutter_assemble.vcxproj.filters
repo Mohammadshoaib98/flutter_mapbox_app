@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Group Flutter\map\mapbox_app-main\build\windows\CMakeFiles\c6245b33c28c66b8ac5b900ed88ee029\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Group Flutter\map\mapbox_app-main\build\windows\CMakeFiles\1abf1ba617fc435545cc1a9d9f02765b\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Group Flutter\map\mapbox_app-main\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Group Flutter\map\mapbox_app-main\build\windows\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AB211717-DE27-34FD-AB71-50CEF16E76E2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

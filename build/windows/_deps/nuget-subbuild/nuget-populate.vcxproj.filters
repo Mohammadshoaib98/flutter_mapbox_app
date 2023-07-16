@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Group Flutter\map\mapbox_app-main\build\windows\_deps\nuget-subbuild\CMakeFiles\0dca76ec0be54c1018ed3afd851c3dc2\nuget-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Group Flutter\map\mapbox_app-main\build\windows\_deps\nuget-subbuild\CMakeFiles\0dca76ec0be54c1018ed3afd851c3dc2\nuget-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Group Flutter\map\mapbox_app-main\build\windows\_deps\nuget-subbuild\CMakeFiles\0dca76ec0be54c1018ed3afd851c3dc2\nuget-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Group Flutter\map\mapbox_app-main\build\windows\_deps\nuget-subbuild\CMakeFiles\0dca76ec0be54c1018ed3afd851c3dc2\nuget-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Group Flutter\map\mapbox_app-main\build\windows\_deps\nuget-subbuild\CMakeFiles\0dca76ec0be54c1018ed3afd851c3dc2\nuget-populate-copyfile.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Group Flutter\map\mapbox_app-main\build\windows\_deps\nuget-subbuild\CMakeFiles\0dca76ec0be54c1018ed3afd851c3dc2\nuget-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Group Flutter\map\mapbox_app-main\build\windows\_deps\nuget-subbuild\CMakeFiles\0dca76ec0be54c1018ed3afd851c3dc2\nuget-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Group Flutter\map\mapbox_app-main\build\windows\_deps\nuget-subbuild\CMakeFiles\0dca76ec0be54c1018ed3afd851c3dc2\nuget-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Group Flutter\map\mapbox_app-main\build\windows\_deps\nuget-subbuild\CMakeFiles\0dca76ec0be54c1018ed3afd851c3dc2\nuget-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Group Flutter\map\mapbox_app-main\build\windows\_deps\nuget-subbuild\CMakeFiles\dedc8e0398df3f16fbd9c7ed6024825a\nuget-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Group Flutter\map\mapbox_app-main\build\windows\_deps\nuget-subbuild\CMakeFiles\56d9ddaba347f59251b87b6e0a902f60\nuget-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Group Flutter\map\mapbox_app-main\build\windows\_deps\nuget-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Group Flutter\map\mapbox_app-main\build\windows\_deps\nuget-subbuild\CMakeFiles\nuget-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{58D9BD36-1688-3262-B8CB-209E8A320809}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

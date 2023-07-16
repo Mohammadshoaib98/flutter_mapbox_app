@@ -5,11 +5,11 @@ class AppConstants {
   static const String baseUrl =
       "https://api.mapbox.com/styles/v1/{id}/tiles/256/{z}/{x}/{y}@2x?access_token={accessToken}";
   static const String mapBoxAccessToken =
-      'pk.eyJ1IjoieWFzZXJnaCIsImEiOiJjbGo1d3Mzb3AwMnJwM2ZxcGVkMDhzMHRkIn0.mEHt3jSDktGIzG1_JQgvBQ';
+      'Your Access Token';
   static const String mapBoxSecretToken =
-      'sk.eyJ1IjoieWFzZXJnaCIsImEiOiJjbGsya3plM3UwZmhuM2RwMnFxZmd4eGZqIn0.EBTKHycZO6UHPcPbPHZwjg';
+      'Your secret token';
   static const String mapBoxStyleId =
-      'mapbox://styles/yasergh/clj5wy8fh004f01pig8p4gr6r';
+      'Your map box style id ';
 
   static const String iconMapMarker = 'assets/icons/map_marker.svg';
 

@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_mapbox_blog/constants/app_constants.dart';
 import 'package:flutter_mapbox_blog/models/map_marker_model.dart';
